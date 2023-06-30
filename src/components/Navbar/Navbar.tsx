@@ -20,7 +20,7 @@ const DUMMY_MENU_LIST: Array<IMenuList> = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center">
+    <nav className="flex items-center justify-between">
       <p
         data-testid="logo"
         className="uppercase font-extrabold text-3xl text-theme-dark-purple"

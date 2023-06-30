@@ -5,7 +5,7 @@ const Input = () => {
       <input
         data-testid="search-input"
         type="text"
-        className="rounded-3xl border border-zinc-300 pl-4 pr-9 outline-none w-60 py-2 text-sm bg-transparent placeholder-zinc-300"
+        className="rounded-3xl border border-zinc-300 pl-4 pr-9 outline-none w-60 py-3 text-sm bg-transparent placeholder-zinc-300"
         placeholder="Search"
       />
       <button
