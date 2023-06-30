@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { IMenuList } from "../../../typescript";
 import Input from "../Input/Input";
+import Button from "../Button/Button";
 
 const DUMMY_MENU_LIST: Array<IMenuList> = [
   {
@@ -35,7 +36,21 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <Input />
+      <div className="flex items-center gap-4">
+        <Input />
+        <Button
+          bgColor="theme-dark-purple"
+          textColor="theme-white"
+          borderColor="theme-dark-purple"
+          content="Upload"
+        />
+        <Button
+          bgColor="transparent"
+          textColor="theme-dark-purple"
+          borderColor="theme-dark-purple"
+          content="Connect Wallet"
+        />
+      </div>
     </nav>
   );
 };
