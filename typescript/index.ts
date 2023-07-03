@@ -9,3 +9,8 @@ export interface IButton {
   borderColor: string;
   content: string;
 }
+
+export interface IHero {
+  name: string;
+  data: string;
+}

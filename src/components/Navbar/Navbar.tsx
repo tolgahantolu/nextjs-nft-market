@@ -1,22 +1,7 @@
 import Link from "next/link";
-import { IMenuList } from "../../../typescript";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
-
-const DUMMY_MENU_LIST: Array<IMenuList> = [
-  {
-    name: "marketplace",
-    href: "/marketplace",
-  },
-  {
-    name: "resource",
-    href: "/resource",
-  },
-  {
-    name: "about",
-    href: "/about",
-  },
-];
+import { DUMMY_MENU_LIST } from "../../constants";
 
 const Navbar = () => {
   return (

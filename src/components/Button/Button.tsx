@@ -6,6 +6,8 @@ const Button: React.FC<IButton> = ({
   borderColor,
   content,
 }) => {
+  console.log(bgColor);
+  console.log(content);
   return (
     <button
       data-testid="button"
