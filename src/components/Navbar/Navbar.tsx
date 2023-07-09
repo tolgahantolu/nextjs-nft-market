@@ -5,7 +5,7 @@ import { DUMMY_MENU_LIST } from "../../constants";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between px-[120px]">
       <p
         data-testid="logo"
         className="uppercase font-extrabold text-3xl text-theme-dark-purple"

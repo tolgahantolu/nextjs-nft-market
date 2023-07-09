@@ -5,7 +5,7 @@ import { Button } from "../index";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between pt-[100px]">
+    <div className="flex justify-between pt-[100px] px-[120px]">
       <div className="flex-1">
         <h1
           data-testid="hero-title"

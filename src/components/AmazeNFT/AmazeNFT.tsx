@@ -3,8 +3,8 @@ import { IoBarChart } from "react-icons/io5";
 
 const AmazeNFT = () => {
   return (
-    <div className="mt-[150px] bg-slate-400/70">
-      <div className="flex justify-between items-start gap-8 py-[75px]">
+    <div className="mt-[150px] bg-zinc-500/20">
+      <div className="flex justify-between items-start gap-8 py-[75px] px-[120px]">
         <h1
           data-testid="amazeNFT"
           className="flex-1 font-extrabold text-3xl uppercase"
@@ -22,7 +22,7 @@ const AmazeNFT = () => {
             >
               Fast Transaction
             </h4>
-            <p className="text-theme-white text-sm">
+            <p className="text-theme-gray text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               etiam viverra tellus imperdiet.
             </p>
@@ -39,7 +39,7 @@ const AmazeNFT = () => {
             >
               Growth Transaction
             </h4>
-            <p className="text-theme-white text-sm">
+            <p className="text-theme-gray text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               etiam viverra tellus imperdiet.
             </p>
