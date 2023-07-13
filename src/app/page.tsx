@@ -1,4 +1,10 @@
-import { Hero, Navbar, AmazeNFT, TopCollections } from "../components";
+import {
+  Hero,
+  Navbar,
+  AmazeNFT,
+  TopCollections,
+  CollectionNFT,
+} from "../components";
 
 export default function Home() {
   return (
@@ -7,6 +13,7 @@ export default function Home() {
       <Hero />
       <AmazeNFT />
       <TopCollections />
+      <CollectionNFT />
     </main>
   );
 }
